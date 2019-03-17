@@ -16,11 +16,11 @@
 
 #######################################################################################
 # Jekyll site settings
-title: Kirstie's Jupyter Book
-author: Kirstie Whitaker
+title: Kirstie's version of the Jupyter Book Demo
+author: Kirstie and the Jupyter Book Community
 email: kwhitaker@turing.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  This is Kirstie's attempt to build a Jupyter book!
+  This is an example book built with Jupyter Books.
 
 baseurl: "" # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
 url: "https://kirstiejane.github.io/mybookname" # the base hostname & protocol for your site, e.g. http://example.com
@@ -79,7 +79,7 @@ download_button_text             : "Download" # The text that download buttons w
 # Bibliography and citation settings. See https://github.com/inukshuk/jekyll-scholar#configuration for options
 scholar:
   style: apa
-
+  
 #######################################################################################
 # Option to add a Goggle analytics tracking code
 

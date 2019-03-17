@@ -1,2 +1,0 @@
-# mybookname
-Test Jupyter Book!
