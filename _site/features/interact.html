@@ -10,10 +10,10 @@
   <title>Connecting content with JupyterHub and Binder</title>
   <meta name="description" content="Connecting content with JupyterHub and Binder">
 
-  <link rel="canonical" href="http://localhost:4000/features/interact.html">
-  <link rel="alternate" type="application/rss+xml" title="Kirstie's version of the Jupyter Book Demo" href="http://localhost:4000/feed.xml">
+  <link rel="canonical" href="https://kirstiejane.github.io/mybookname/features/interact.html">
+  <link rel="alternate" type="application/rss+xml" title="Kirstie's version of the Jupyter Book Demo" href="https://kirstiejane.github.io/mybookname/feed.xml">
 
-  <meta property="og:url"         content="http://localhost:4000/features/interact.html" />
+  <meta property="og:url"         content="https://kirstiejane.github.io/mybookname/features/interact.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="Connecting content with JupyterHub and Binder" />
 <meta property="og:description" content="Connecting content with JupyterHub and Binder" />
@@ -25,13 +25,13 @@
   "@context": "http://schema.org",
   "@type": "NewsArticle",
   "mainEntityOfPage":
-    "http://localhost:4000/features/interact.html",
+    "https://kirstiejane.github.io/mybookname/features/interact.html",
   "headline":
     "Connecting content with JupyterHub and Binder",
   "datePublished":
-    "2019-03-17T21:53:38+00:00",
+    "2019-03-17T21:57:06+00:00",
   "dateModified":
-    "2019-03-17T21:53:38+00:00",
+    "2019-03-17T21:57:06+00:00",
   "description":
     "Connecting content with JupyterHub and Binder",
   "author": {
@@ -43,14 +43,14 @@
     "name": "Data 100 at UC Berkeley",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:4000",
+      "url": "https://kirstiejane.github.io/mybookname",
       "width": 60,
       "height": 60
     }
   },
   "image": {
     "@type": "ImageObject",
-    "url": "http://localhost:4000",
+    "url": "https://kirstiejane.github.io/mybookname",
     "height": 60,
     "width": 60
   }
@@ -460,7 +460,7 @@ function addParamToInternalLinks(hub) {
   var links = document.querySelectorAll("a").forEach(function(link) {
     var href = link.href;
     // If the link is an internal link...
-    if (href.search("http://localhost:4000") !== -1 || href.startsWith('/') || href.search("127.0.0.1:") !== -1) {
+    if (href.search("https://kirstiejane.github.io/mybookname") !== -1 || href.startsWith('/') || href.search("127.0.0.1:") !== -1) {
       // Assume we're an internal link, add the hub param to it
       var params = getJsonFromUrl(href);
       if (params !== false) {
